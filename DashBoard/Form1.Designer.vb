@@ -34,9 +34,9 @@ Partial Class Form1
         Button1.FlatAppearance.BorderSize = 0
         Button1.FlatStyle = FlatStyle.Flat
         Button1.Image = CType(resources.GetObject("Button1.Image"), Image)
-        Button1.Location = New Point(217, 395)
+        Button1.Location = New Point(568, 137)
         Button1.Name = "Button1"
-        Button1.Size = New Size(30, 31)
+        Button1.Size = New Size(39, 42)
         Button1.TabIndex = 0
         Button1.UseVisualStyleBackColor = False
         ' 
@@ -46,9 +46,9 @@ Partial Class Form1
         Button2.FlatAppearance.BorderSize = 0
         Button2.FlatStyle = FlatStyle.Flat
         Button2.Image = CType(resources.GetObject("Button2.Image"), Image)
-        Button2.Location = New Point(304, 395)
+        Button2.Location = New Point(568, 225)
         Button2.Name = "Button2"
-        Button2.Size = New Size(30, 31)
+        Button2.Size = New Size(39, 42)
         Button2.TabIndex = 1
         Button2.UseVisualStyleBackColor = False
         ' 
@@ -58,15 +58,15 @@ Partial Class Form1
         Button3.FlatAppearance.BorderSize = 0
         Button3.FlatStyle = FlatStyle.Flat
         Button3.Image = CType(resources.GetObject("Button3.Image"), Image)
-        Button3.Location = New Point(392, 395)
+        Button3.Location = New Point(568, 315)
         Button3.Name = "Button3"
-        Button3.Size = New Size(30, 33)
+        Button3.Size = New Size(39, 42)
         Button3.TabIndex = 2
         Button3.UseVisualStyleBackColor = False
         ' 
         ' Form1
         ' 
-        AutoScaleDimensions = New SizeF(8.0F, 20.0F)
+        AutoScaleDimensions = New SizeF(8F, 20F)
         AutoScaleMode = AutoScaleMode.Font
         BackColor = Color.FromArgb(CByte(255), CByte(227), CByte(227))
         BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), Image)
